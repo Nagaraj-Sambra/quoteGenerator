@@ -4,14 +4,15 @@
   "description": "A Random Quote Generator",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "start": "node app.js"
   },
   "author": "karthik-rp",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.15.0",
-    "cors": "^2.7.1",
-    "express": "^4.13.4"
+    "body-parser": "^1.16.0",
+    "cors": "^2.8.1",
+    "express": "^4.14.0"
   },
   "engines": {
     "node": "5.2.0"

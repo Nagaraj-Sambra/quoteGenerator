@@ -1,4 +1,4 @@
-var bender = require('../quotes/bender.js');
+var bender = require('../data/bender.json');
 
 var appRouter = function (app) {
     app.get('/', function(req, res) {
@@ -6,7 +6,7 @@ var appRouter = function (app) {
     });
 
     app.get("/bender", function(req, res) {
-    	return res.send({ "Quote": bender.get(), "Author": "Bender Rodriguez" });
+        return res.send({ "Quote": bender.quotes[Math.floor(Math.random() * bender.quotes.length)], "Author": "Bender Rodriguez" });
     });
 }
 
