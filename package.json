@@ -2,7 +2,7 @@
   "name": "quote-generator",
   "version": "1.0.1",
   "description": "A Random Quote Generator",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "test",
     "start": "node app.js",
