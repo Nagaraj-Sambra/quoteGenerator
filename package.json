@@ -1,6 +1,6 @@
 {
   "name": "quote-generator",
-  "version": "1.0.1",
+  "version": "0.0.1",
   "description": "A Random Quote Generator",
   "main": "app.js",
   "scripts": {
@@ -12,6 +12,7 @@
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.16.1",
+    "cors": "^2.8.3",
     "express": "^4.14.1"
   },
   "engines": {
